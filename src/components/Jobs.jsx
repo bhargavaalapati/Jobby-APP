@@ -190,10 +190,9 @@ class Jobs extends Component {
   renderJobsLoadingView = () => (
     <div className="flex justify-center items-center py-8">
       <div data-testid="loader">
-        <ThreeDots // Corrected component name
+        <ClipLoader // Corrected component name
           color="#ffffff"
-          height={50}
-          width={50}
+          size={50}
         />
       </div>
     </div>
