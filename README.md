@@ -7,7 +7,7 @@ Welcome to the Jobby App, a responsive and secure job portal application built w
 ## Live Demo
 
 You can view a live version of the application here:
-[**Jobby App Live**](jobby-app-three-xi.vercel.app)
+[**Jobby App Live**](https://jobby-app-three-xi.vercel.app/)
 
 ## Significant Features
 
