@@ -65,5 +65,5 @@ Follow these steps to get a local copy up and running:
 ---
 
 **Credits**
-* This project was developed by Nxtwave(Assignment in React.Js course) X (Bhargava Alapati).
+* This project was developed by Nxtwave(Assignment in React.JS course) X (Bhargava Alapati).
 * APIs provided by [ccbp.in](https://apis.ccbp.in/).
