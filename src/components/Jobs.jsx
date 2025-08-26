@@ -2,7 +2,7 @@ import React from 'react'
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import {BsSearch} from 'react-icons/bs'
-import {ThreeDots} from 'react-loader-spinner' // Corrected import
+import {ClipLoader} from 'react-spinners'
 
 import Header from './Header'
 import JobCard from './JobCard'
@@ -140,10 +140,9 @@ class Jobs extends Component {
   renderProfileLoadingView = () => (
     <div className="flex justify-center items-center py-8">
       <div data-testid="loader">
-        <ThreeDots // Corrected component name
+        <ClipLoader // Corrected component name
           color="#ffffff"
-          height={50}
-          width={50}
+          size={50}
         />
       </div>
     </div>

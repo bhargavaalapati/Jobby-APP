@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import {useParams} from 'react-router-dom' // Import the useParams hook
+import {useParams} from 'react-router-dom'
 import Cookies from 'js-cookie'
-import {ThreeDots} from 'react-loader-spinner'
+import {ClipLoader} from 'react-spinners'
 import {FaStar, FaExternalLinkAlt} from 'react-icons/fa'
 import {MdLocationOn} from 'react-icons/md'
 import {FaBriefcase} from 'react-icons/fa'
@@ -200,7 +200,7 @@ class JobDetails extends Component {
   renderLoadingView = () => (
     <div className="flex justify-center items-center py-8">
       <div data-testid="loader">
-        <ThreeDots color="#ffffff" height={50} width={50} />
+        <ClipLoader color="#ffffff" size={50} /> // REPLACED
       </div>
     </div>
   )
