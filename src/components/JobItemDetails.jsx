@@ -200,7 +200,7 @@ class JobDetails extends Component {
   renderLoadingView = () => (
     <div className="flex justify-center items-center py-8">
       <div data-testid="loader">
-        <ClipLoader color="#ffffff" size={50} /> // REPLACED
+        <ClipLoader color="#ffffff" size={50} />
       </div>
     </div>
   )
