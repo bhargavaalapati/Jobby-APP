@@ -7,7 +7,7 @@ import {ClipLoader} from 'react-spinners'
 import Header from './Header'
 import JobCard from './JobCard'
 
-import {employmentTypesList, salaryRangesList} from './constants'
+import {employmentTypesList, salaryRangesList} from './Constants.jsx'
 
 const apiStatusConstants = {
   initial: 'INITIAL',
